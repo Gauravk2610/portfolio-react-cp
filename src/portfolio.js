@@ -9,28 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Gaurav Konde",
+  title: "Hi all, I'm Gaurav",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Full Stack Software, Python & BlockChain Developer 🚀 having an experience of designing and building Web Applications with JavaScript / Reactjs  and some other cool libraries and frameworks, also built some smart contracts, ERC20 tokens creation, some DeFi, and other cool stuffs. Also have worked on Django FrameWork And have Created some Awesome Projects 🔥 "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1cgY3BdrX1DTI-BctjY2eRW7yXZojW-aI/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  github: "https://github.com/Gauravk2610",
+  linkedin: "https://www.linkedin.com/in/gaurav-konde-51aab6193/",
+  gmail: "gauravkonde26@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  // medium: "https://medium.com/@davidrakosi",
+  // stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
+  instagram: 'https://www.instagram.com/gaurav_konde/',
+  // twitter: 'https://twitter.com/davidrakosi_',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,32 +38,35 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FULL STACK, PYTHON & BLOCKCHAIN DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces / Back end for your web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Progressive Blockchain Applications Based on EVM"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS "
+    ),
+    emoji(
+      "⚡ Built Some Awesome Bots, WebAutomation, Webscrapping & Opencv based applications using Python  "
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
+softwareSkills: [
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -74,25 +77,25 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Blockchain",
+      fontAwesomeClassname: "fab fa-ethereum"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "nodejs",
+    //   fontAwesomeClassname: "fab fa-node"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "sqlite-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -100,27 +103,17 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Atharva College of Engineering",
+      logo: require("./assets/images/atharva.png"),
+      subHeader: "Bachelor's in Information Technology",
+      duration: "2019 - Ongoing",
+      desc: "",
+      
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+    
   ]
 };
 
@@ -130,15 +123,19 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Html / Css", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "JavaScript",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
+      Stack: "Python ",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Solidity ",
       progressPercentage: "90%"
     }
   ],
@@ -152,33 +149,16 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      company: "Techq Konnect",
+      companylogo: require("./assets/images/TKLOGO1.png"),
+      date: "March 2020 – April 2020",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Working with technologies made easy !!!",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Computer Vision Projects",
+        "Object Detection Project",
+        "Emotion Detection System",
       ]
-    },
-    {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
-      desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
-    },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
     }
   ]
 };
@@ -187,10 +167,10 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubConvertedToken: "83f73eabfd11e1a1671fd80e02cfbde2c665db32",
+  githubUserName: "Gauravk2610", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -236,10 +216,10 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "2nd Place Atmanirbhar Start Up Competition",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Drishti: A Smart Aid For Blind People",
+      image: require("./assets/images/atma.PNG"),
       footerLink: [
         {
           name: "Certification",
@@ -252,40 +232,45 @@ const achievementSection = {
             ""
         },
         {
-          name: "Google Code-in Blog",
+          name: "Atmanirbhar Startup",
           url:
             ""
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Hack Nagpur",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Top 15 Winning Teams at Hack Nagpur",
+      image: require("./assets/images/hn.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "Hackathon",
+          url:
+            ""
+        },
+        {
+          name: "Top 15",
           url:
             ""
         }
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: ""
-        }
-      ]
-    }
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   footerLink: [
+    //     {name: "Certification", url: ""},
+    //     {
+    //       name: "Final Project",
+    //       url: ""
+    //     }
+    //   ]
+    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -310,7 +295,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -349,14 +334,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "+91 9987882211",
+  email_address: "gauravkonde26@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+  userName: "Gauravk2610", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
